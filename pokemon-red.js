@@ -449,6 +449,232 @@ method: "Catch",
 location: "Diglett's Cave",
 evolution: "Lv26 → Dugtrio"
 
+},
+
+{
+number: 51,
+name: "Dugtrio",
+type: "Ground",
+method: "Evolution",
+location: "Evolve Diglett / Diglett's Cave",
+evolution: "Final Evolution"
+},
+
+{
+number: 52,
+name: "Meowth",
+type: "Normal",
+method: "Catch",
+location: "Routes 5, 6, 7, 8",
+evolution: "Lv28 → Persian"
+},
+
+{
+number: 53,
+name: "Persian",
+type: "Normal",
+method: "Evolution",
+location: "Evolve Meowth",
+evolution: "Final Evolution"
+},
+
+{
+number: 54,
+name: "Psyduck",
+type: "Water",
+method: "Catch",
+location: "Seafoam Islands / Safari Zone",
+evolution: "Lv33 → Golduck"
+},
+
+{
+number: 55,
+name: "Golduck",
+type: "Water",
+method: "Evolution",
+location: "Evolve Psyduck",
+evolution: "Final Evolution"
+},
+
+{
+number: 56,
+name: "Mankey",
+type: "Fighting",
+method: "Catch",
+location: "Routes 3, 4, 22",
+evolution: "Lv28 → Primeape"
+},
+
+{
+number: 57,
+name: "Primeape",
+type: "Fighting",
+method: "Evolution",
+location: "Evolve Mankey",
+evolution: "Final Evolution"
+},
+
+{
+number: 58,
+name: "Growlithe",
+type: "Fire",
+method: "Catch",
+location: "Routes 7, 8",
+evolution: "Fire Stone → Arcanine"
+},
+
+{
+number: 59,
+name: "Arcanine",
+type: "Fire",
+method: "Evolution",
+location: "Fire Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 60,
+name: "Poliwag",
+type: "Water",
+method: "Fishing",
+location: "Rods / Water areas",
+evolution: "Lv25 → Poliwhirl"
+},
+
+{
+number: 61,
+name: "Poliwhirl",
+type: "Water",
+method: "Evolution",
+location: "Evolve Poliwag",
+evolution: "Water Stone → Poliwrath"
+},
+
+{
+number: 62,
+name: "Poliwrath",
+type: "Water / Fighting",
+method: "Evolution",
+location: "Water Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 63,
+name: "Abra",
+type: "Psychic",
+method: "Catch",
+location: "Routes 24, 25",
+evolution: "Lv16 → Kadabra → Trade → Alakazam"
+},
+
+{
+number: 64,
+name: "Kadabra",
+type: "Psychic",
+method: "Evolution",
+location: "Evolve Abra",
+evolution: "Trade → Alakazam"
+},
+
+{
+number: 65,
+name: "Alakazam",
+type: "Psychic",
+method: "Trade Evolution",
+location: "Trade Kadabra",
+evolution: "Final Evolution"
+},
+
+{
+number: 66,
+name: "Machop",
+type: "Fighting",
+method: "Catch",
+location: "Rock Tunnel / Victory Road",
+evolution: "Lv28 → Machoke → Trade → Machamp"
+},
+
+{
+number: 67,
+name: "Machoke",
+type: "Fighting",
+method: "Evolution",
+location: "Evolve Machop",
+evolution: "Trade → Machamp"
+},
+
+{
+number: 68,
+name: "Machamp",
+type: "Fighting",
+method: "Trade Evolution",
+location: "Trade Machoke",
+evolution: "Final Evolution"
+},
+
+{
+number: 69,
+name: "Bellsprout",
+type: "Grass / Poison",
+method: "Catch",
+location: "Routes 24, 25",
+evolution: "Lv21 → Weepinbell"
+},
+
+{
+number: 70,
+name: "Weepinbell",
+type: "Grass / Poison",
+method: "Evolution",
+location: "Evolve Bellsprout",
+evolution: "Leaf Stone → Victreebel"
+},
+
+{
+number: 71,
+name: "Victreebel",
+type: "Grass / Poison",
+method: "Evolution",
+location: "Leaf Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 72,
+name: "Tentacool",
+type: "Water / Poison",
+method: "Fishing / Surf",
+location: "Sea routes",
+evolution: "Lv30 → Tentacruel"
+},
+
+{
+number: 73,
+name: "Tentacruel",
+type: "Water / Poison",
+method: "Evolution",
+location: "Evolve Tentacool",
+evolution: "Final Evolution"
+},
+
+{
+number: 74,
+name: "Geodude",
+type: "Rock / Ground",
+method: "Catch",
+location: "Caves",
+evolution: "Lv25 → Graveler → Trade → Golem"
+},
+
+{
+number: 75,
+name: "Graveler",
+type: "Rock / Ground",
+method: "Evolution",
+location: "Evolve Geodude",
+evolution: "Trade → Golem"
+
 }
 
 ];
