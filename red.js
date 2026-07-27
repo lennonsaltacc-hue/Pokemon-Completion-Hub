@@ -69,11 +69,13 @@ card.innerHTML = `
 
 <h3>#${p.number} ${p.name}</h3>
 
-<p>${p.type}</p>
+<p>Type: ${p.type}</p>
 
-<p>${p.method}</p>
+<p>Method: ${p.method}</p>
 
-<p>${p.evolution}</p>
+<p>Location: ${p.location}</p>
+
+<p>Evolution: ${p.evolution}</p>
 
 <label>
 
