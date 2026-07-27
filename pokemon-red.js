@@ -223,6 +223,231 @@ type: "Electric",
 method: "Catch",
 location: "Viridian Forest / Power Plant",
 evolution: "Thunder Stone → Raichu"
+},
+
+{
+number: 26,
+name: "Raichu",
+type: "Electric",
+method: "Evolution",
+location: "Evolve Pikachu",
+evolution: "Thunder Stone"
+},
+
+{
+number: 27,
+name: "Sandshrew",
+type: "Ground",
+method: "Catch",
+location: "Routes 4, 8, 9, 10",
+evolution: "Lv22 → Sandslash"
+},
+
+{
+number: 28,
+name: "Sandslash",
+type: "Ground",
+method: "Evolution",
+location: "Evolve Sandshrew",
+evolution: "Final Evolution"
+},
+
+{
+number: 29,
+name: "Nidoran♀",
+type: "Poison",
+method: "Catch",
+location: "Route 22 / Safari Zone",
+evolution: "Lv16 → Nidorina → Moon Stone → Nidoqueen"
+},
+
+{
+number: 30,
+name: "Nidorina",
+type: "Poison",
+method: "Evolution",
+location: "Evolve Nidoran♀",
+evolution: "Moon Stone → Nidoqueen"
+},
+
+{
+number: 31,
+name: "Nidoqueen",
+type: "Poison / Ground",
+method: "Evolution",
+location: "Moon Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 32,
+name: "Nidoran♂",
+type: "Poison",
+method: "Catch",
+location: "Route 22 / Safari Zone",
+evolution: "Lv16 → Nidorino → Moon Stone → Nidoking"
+},
+
+{
+number: 33,
+name: "Nidorino",
+type: "Poison",
+method: "Evolution",
+location: "Evolve Nidoran♂",
+evolution: "Moon Stone → Nidoking"
+},
+
+{
+number: 34,
+name: "Nidoking",
+type: "Poison / Ground",
+method: "Evolution",
+location: "Moon Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 35,
+name: "Clefairy",
+type: "Normal",
+method: "Catch",
+location: "Mt. Moon",
+evolution: "Moon Stone → Clefable"
+},
+
+{
+number: 36,
+name: "Clefable",
+type: "Normal",
+method: "Evolution",
+location: "Moon Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 37,
+name: "Vulpix",
+type: "Fire",
+method: "Catch",
+location: "Routes 7, 8",
+evolution: "Fire Stone → Ninetales"
+},
+
+{
+number: 38,
+name: "Ninetales",
+type: "Fire",
+method: "Evolution",
+location: "Fire Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 39,
+name: "Jigglypuff",
+type: "Normal",
+method: "Catch",
+location: "Routes 3, 4, 5, 6",
+evolution: "Moon Stone → Wigglytuff"
+},
+
+{
+number: 40,
+name: "Wigglytuff",
+type: "Normal",
+method: "Evolution",
+location: "Moon Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 41,
+name: "Zubat",
+type: "Poison / Flying",
+method: "Catch",
+location: "Mt. Moon, Rock Tunnel, Caves",
+evolution: "Lv22 → Golbat"
+},
+
+{
+number: 42,
+name: "Golbat",
+type: "Poison / Flying",
+method: "Evolution",
+location: "Evolve Zubat",
+evolution: "Final Evolution"
+},
+
+{
+number: 43,
+name: "Oddish",
+type: "Grass / Poison",
+method: "Catch",
+location: "Routes 24, 25",
+evolution: "Lv21 → Gloom"
+},
+
+{
+number: 44,
+name: "Gloom",
+type: "Grass / Poison",
+method: "Evolution",
+location: "Evolve Oddish",
+evolution: "Leaf Stone → Vileplume"
+},
+
+{
+number: 45,
+name: "Vileplume",
+type: "Grass / Poison",
+method: "Evolution",
+location: "Leaf Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 46,
+name: "Paras",
+type: "Bug / Grass",
+method: "Catch",
+location: "Mt. Moon, Safari Zone",
+evolution: "Lv24 → Parasect"
+},
+
+{
+number: 47,
+name: "Parasect",
+type: "Bug / Grass",
+method: "Evolution",
+location: "Evolve Paras",
+evolution: "Final Evolution"
+},
+
+{
+number: 48,
+name: "Venonat",
+type: "Bug / Poison",
+method: "Catch",
+location: "Routes 24, 25, Safari Zone",
+evolution: "Lv31 → Venomoth"
+},
+
+{
+number: 49,
+name: "Venomoth",
+type: "Bug / Poison",
+method: "Evolution",
+location: "Evolve Venonat",
+evolution: "Final Evolution"
+},
+
+{
+number: 50,
+name: "Diglett",
+type: "Ground",
+method: "Catch",
+location: "Diglett's Cave",
+evolution: "Lv26 → Dugtrio"
 
 }
 
