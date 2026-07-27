@@ -64,22 +64,35 @@ let card = document.createElement("div");
 
 card.className = "game-card";
 
-
 card.innerHTML = `
+
+<div class="pokemon-header">
+
+<img
+class="pokemon-sprite"
+src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${p.number}.png"
+alt="${p.name}"
+>
+
+<div>
 
 <h3>#${String(p.number).padStart(3, "0")} ${p.name}</h3>
 
-<p>Type: ${p.type}</p>
+</div>
 
-<p>Method: ${p.method}</p>
+</div>
 
-<p>Location: ${p.location}</p>
+<p><strong>Type:</strong> ${p.type}</p>
 
-<p>Evolution: ${p.evolution}</p>
+<p><strong>Method:</strong> ${p.method}</p>
+
+<p><strong>Location:</strong> ${p.location}</p>
+
+<p><strong>Evolution:</strong> ${p.evolution}</p>
 
 <label>
 
-<input 
+<input
 type="checkbox"
 ${checked ? "checked" : ""}
 onclick="togglePokemon('${p.name}')"
