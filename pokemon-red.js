@@ -898,7 +898,231 @@ type: "Electric",
 method: "Catch",
 location: "Power Plant",
 evolution: "Lv30 → Electrode"
-}
-  
-];
+},
 
+{
+number: 101,
+name: "Electrode",
+type: "Electric",
+method: "Evolution",
+location: "Evolve Voltorb",
+evolution: "Final Evolution"
+},
+
+{
+number: 102,
+name: "Exeggcute",
+type: "Grass / Psychic",
+method: "Catch",
+location: "Safari Zone",
+evolution: "Leaf Stone → Exeggutor"
+},
+
+{
+number: 103,
+name: "Exeggutor",
+type: "Grass / Psychic",
+method: "Evolution",
+location: "Leaf Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 104,
+name: "Cubone",
+type: "Ground",
+method: "Catch",
+location: "Pokémon Tower",
+evolution: "Lv28 → Marowak"
+},
+
+{
+number: 105,
+name: "Marowak",
+type: "Ground",
+method: "Evolution",
+location: "Evolve Cubone",
+evolution: "Final Evolution"
+},
+
+{
+number: 106,
+name: "Hitmonlee",
+type: "Fighting",
+method: "Gift",
+location: "Fighting Dojo",
+evolution: "No Evolution"
+},
+
+{
+number: 107,
+name: "Hitmonchan",
+type: "Fighting",
+method: "Gift",
+location: "Fighting Dojo",
+evolution: "No Evolution"
+},
+
+{
+number: 108,
+name: "Lickitung",
+type: "Normal",
+method: "Trade",
+location: "Trade Slowbro",
+evolution: "No Evolution"
+},
+
+{
+number: 109,
+name: "Koffing",
+type: "Poison",
+method: "Catch",
+location: "Pokémon Mansion",
+evolution: "Lv35 → Weezing"
+},
+
+{
+number: 110,
+name: "Weezing",
+type: "Poison",
+method: "Evolution",
+location: "Evolve Koffing",
+evolution: "Final Evolution"
+},
+
+{
+number: 111,
+name: "Rhyhorn",
+type: "Ground / Rock",
+method: "Catch",
+location: "Safari Zone",
+evolution: "Lv42 → Rhydon"
+},
+
+{
+number: 112,
+name: "Rhydon",
+type: "Ground / Rock",
+method: "Evolution",
+location: "Evolve Rhyhorn",
+evolution: "Final Evolution"
+},
+
+{
+number: 113,
+name: "Chansey",
+type: "Normal",
+method: "Catch",
+location: "Safari Zone",
+evolution: "No Evolution"
+},
+
+{
+number: 114,
+name: "Tangela",
+type: "Grass",
+method: "Trade",
+location: "Trade Venonat",
+evolution: "No Evolution"
+},
+
+{
+number: 115,
+name: "Kangaskhan",
+type: "Normal",
+method: "Catch",
+location: "Safari Zone",
+evolution: "No Evolution"
+},
+
+{
+number: 116,
+name: "Horsea",
+type: "Water",
+method: "Fishing",
+location: "Sea routes",
+evolution: "Lv32 → Seadra"
+},
+
+{
+number: 117,
+name: "Seadra",
+type: "Water",
+method: "Evolution",
+location: "Evolve Horsea",
+evolution: "Final Evolution"
+},
+
+{
+number: 118,
+name: "Goldeen",
+type: "Water",
+method: "Fishing",
+location: "Water areas",
+evolution: "Lv33 → Seaking"
+},
+
+{
+number: 119,
+name: "Seaking",
+type: "Water",
+method: "Evolution",
+location: "Evolve Goldeen",
+evolution: "Final Evolution"
+},
+
+{
+number: 120,
+name: "Staryu",
+type: "Water",
+method: "Fishing",
+location: "Sea routes",
+evolution: "Water Stone → Starmie"
+},
+
+{
+number: 121,
+name: "Starmie",
+type: "Water / Psychic",
+method: "Evolution",
+location: "Water Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 122,
+name: "Mr. Mime",
+type: "Psychic",
+method: "Trade",
+location: "Trade Abra",
+evolution: "No Evolution"
+},
+
+{
+number: 123,
+name: "Scyther",
+type: "Bug / Flying",
+method: "Catch",
+location: "Safari Zone",
+evolution: "No Evolution"
+},
+
+{
+number: 124,
+name: "Jynx",
+type: "Ice / Psychic",
+method: "Trade",
+location: "Trade Poliwhirl",
+evolution: "No Evolution"
+},
+
+{
+number: 125,
+name: "Electabuzz",
+type: "Electric",
+method: "Catch",
+location: "Power Plant",
+evolution: "No Evolution"
+}
+
+];
