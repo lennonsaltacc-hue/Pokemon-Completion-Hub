@@ -22,13 +22,17 @@ header {
 
 
 .dashboard,
-.game-card {
+.game-card{
+    background:white;
+    border-radius:18px;
+    padding:20px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,.12);
+    transition:.2s;
+}
 
-    background: #222;
-    margin-top: 20px;
-    padding: 20px;
-    border-radius: 15px;
-
+.game-card:hover{
+    transform:translateY(-3px);
 }
 
 
@@ -43,11 +47,31 @@ header {
 }
 
 
-.progress {
+.progress{
 
-    height: 100%;
-    width: 0%;
-    background: #d62828;
+background:#ddd;
+
+height:24px;
+
+border-radius:999px;
+
+overflow:hidden;
+
+margin:25px 0;
+
+}
+
+#dexProgress{
+
+height:100%;
+
+background:linear-gradient(
+90deg,
+#ff3b30,
+#ffcc00
+);
+
+transition:.4s;
 
 }
 
@@ -90,12 +114,17 @@ gap:10px;
 
 
 
-.game-card label {
+.game-card label{
 
-cursor:pointer;
+display:block;
+
+margin-top:18px;
+
+font-weight:bold;
+
+font-size:18px;
 
 }
-
 
 
 input[type="checkbox"] {
@@ -107,18 +136,46 @@ margin-right:10px;
 
 .pokemon-header{
     display:flex;
+    flex-direction:column;
     align-items:center;
-    gap:15px;
-    margin-bottom:12px;
+    margin-bottom:15px;
 }
 
 .pokemon-sprite{
-    width:72px;
-    height:72px;
-    image-rendering:pixelated;
-    flex-shrink:0;
+
+width:120px;
+height:120px;
+
+image-rendering:pixelated;
+
+margin-bottom:10px;
+
 }
 
 .game-card h3{
     margin:0;
+}
+
+.game-card p{
+
+margin:10px 0;
+
+}
+
+#search{
+
+width:100%;
+
+padding:14px;
+
+font-size:18px;
+
+border-radius:10px;
+
+border:2px solid #ddd;
+
+margin-bottom:25px;
+
+box-sizing:border-box;
+
 }
