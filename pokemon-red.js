@@ -448,7 +448,6 @@ type: "Ground",
 method: "Catch",
 location: "Diglett's Cave",
 evolution: "Lv26 → Dugtrio"
-
 },
 
 {
@@ -900,5 +899,5 @@ method: "Catch",
 location: "Power Plant",
 evolution: "Lv30 → Electrode"
 
-}
+};
 
