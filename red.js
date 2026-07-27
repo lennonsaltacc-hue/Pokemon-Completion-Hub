@@ -67,7 +67,7 @@ card.className = "game-card";
 
 card.innerHTML = `
 
-<h3>#${p.number} ${p.name}</h3>
+<h3>#${String(p.number).padStart(3, "0")} ${p.name}</h3>
 
 <p>Type: ${p.type}</p>
 
