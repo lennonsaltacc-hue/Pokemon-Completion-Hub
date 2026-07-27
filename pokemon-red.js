@@ -1123,6 +1123,241 @@ type: "Electric",
 method: "Catch",
 location: "Power Plant",
 evolution: "No Evolution"
+},
+
+,
+
+{
+number: 126,
+name: "Magmar",
+type: "Fire",
+method: "Catch",
+location: "Pokémon Mansion",
+evolution: "No Evolution"
+},
+
+{
+number: 127,
+name: "Pinsir",
+type: "Bug",
+method: "Catch",
+location: "Safari Zone",
+evolution: "No Evolution"
+},
+
+{
+number: 128,
+name: "Tauros",
+type: "Normal",
+method: "Catch",
+location: "Safari Zone",
+evolution: "No Evolution"
+},
+
+{
+number: 129,
+name: "Magikarp",
+type: "Water",
+method: "Fishing / Purchase",
+location: "Routes / Mt. Moon Pokémon Center",
+evolution: "Lv20 → Gyarados"
+},
+
+{
+number: 130,
+name: "Gyarados",
+type: "Water / Flying",
+method: "Evolution",
+location: "Evolve Magikarp",
+evolution: "Final Evolution"
+},
+
+{
+number: 131,
+name: "Lapras",
+type: "Water / Ice",
+method: "Gift",
+location: "Silph Co.",
+evolution: "No Evolution"
+},
+
+{
+number: 132,
+name: "Ditto",
+type: "Normal",
+method: "Catch",
+location: "Routes 13, 14, 15, Pokémon Mansion",
+evolution: "No Evolution"
+},
+
+{
+number: 133,
+name: "Eevee",
+type: "Normal",
+method: "Gift",
+location: "Celadon Mansion",
+evolution: "Water Stone / Thunder Stone / Fire Stone"
+},
+
+{
+number: 134,
+name: "Vaporeon",
+type: "Water",
+method: "Stone Evolution",
+location: "Water Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 135,
+name: "Jolteon",
+type: "Electric",
+method: "Stone Evolution",
+location: "Thunder Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 136,
+name: "Flareon",
+type: "Fire",
+method: "Stone Evolution",
+location: "Fire Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 137,
+name: "Porygon",
+type: "Normal",
+method: "Gift",
+location: "Celadon Prize Corner",
+evolution: "No Evolution"
+},
+
+{
+number: 138,
+name: "Omanyte",
+type: "Rock / Water",
+method: "Fossil",
+location: "Helix Fossil",
+evolution: "Lv40 → Omastar"
+},
+
+{
+number: 139,
+name: "Omastar",
+type: "Rock / Water",
+method: "Evolution",
+location: "Evolve Omanyte",
+evolution: "Final Evolution"
+},
+
+{
+number: 140,
+name: "Kabuto",
+type: "Rock / Water",
+method: "Fossil",
+location: "Dome Fossil",
+evolution: "Lv40 → Kabutops"
+},
+
+{
+number: 141,
+name: "Kabutops",
+type: "Rock / Water",
+method: "Evolution",
+location: "Evolve Kabuto",
+evolution: "Final Evolution"
+},
+
+{
+number: 142,
+name: "Aerodactyl",
+type: "Rock / Flying",
+method: "Fossil",
+location: "Old Amber",
+evolution: "No Evolution"
+},
+
+{
+number: 143,
+name: "Snorlax",
+type: "Normal",
+method: "Catch",
+location: "Route 12 / Route 16",
+evolution: "No Evolution"
+},
+
+{
+number: 144,
+name: "Articuno",
+type: "Ice / Flying",
+method: "Legendary",
+location: "Seafoam Islands",
+evolution: "No Evolution"
+},
+
+{
+number: 145,
+name: "Zapdos",
+type: "Electric / Flying",
+method: "Legendary",
+location: "Power Plant",
+evolution: "No Evolution"
+},
+
+{
+number: 146,
+name: "Moltres",
+type: "Fire / Flying",
+method: "Legendary",
+location: "Victory Road",
+evolution: "No Evolution"
+},
+
+{
+number: 147,
+name: "Dratini",
+type: "Dragon",
+method: "Fishing / Prize",
+location: "Safari Zone / Celadon Prize Corner",
+evolution: "Lv30 → Dragonair → Lv55 → Dragonite"
+},
+
+{
+number: 148,
+name: "Dragonair",
+type: "Dragon",
+method: "Evolution",
+location: "Evolve Dratini",
+evolution: "Lv55 → Dragonite"
+},
+
+{
+number: 149,
+name: "Dragonite",
+type: "Dragon / Flying",
+method: "Evolution",
+location: "Evolve Dragonair",
+evolution: "Final Evolution"
+},
+
+{
+number: 150,
+name: "Mewtwo",
+type: "Psychic",
+method: "Legendary",
+location: "Cerulean Cave",
+evolution: "No Evolution"
+},
+
+{
+number: 151,
+name: "Mew",
+type: "Event / Glitch",
+location: "Event Distribution",
+evolution: "No Evolution"
 }
 
 ];
