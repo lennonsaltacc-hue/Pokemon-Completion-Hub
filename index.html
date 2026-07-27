@@ -1,1 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Completion Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>⚪ Pokémon Completion Hub</h1>
+        <p>Your journey to 100% every Pokémon game</p>
+    </header>
+
+
+    <section class="dashboard">
+
+        <h2>Overall Progress</h2>
+
+        <div class="progress-bar">
+            <div class="progress" id="overallProgress"></div>
+        </div>
+
+        <p id="percentage">0% Complete</p>
+
+    </section>
+
+
+    <section class="games">
+
+        <h2>Your Games</h2>
+
+
+        <div class="game-card">
+
+            <h3>🟥 Pokémon Red</h3>
+
+            <p>
+                Progress:
+                <span id="redProgress">
+                    0%
+                </span>
+            </p>
+
+            <button>
+                Open Tracker
+            </button>
+
+        </div>
+
+
+    </section>
+
+
+</div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
