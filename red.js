@@ -97,7 +97,7 @@ list.appendChild(card);
 
 
 let percent = Math.round(
-(caught.length / 151) * 100
+(caught.length / pokemon.length) * 100
 );
 
 
@@ -110,7 +110,7 @@ percent + "%";
 document.getElementById(
 "dexPercentage"
 ).innerText =
-`${caught.length} / 151 Pokémon (${percent}%)`;
+`${caught.length} / ${pokemon.length} Pokémon (${percent}%)`;
 
 }
 
