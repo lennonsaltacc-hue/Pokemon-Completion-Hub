@@ -1,1 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pokémon Red Tracker</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+<div class="container">
+
+<header>
+    <h1>🟥 Pokémon Red Tracker</h1>
+    <p>Complete the Kanto Pokédex</p>
+</header>
+
+
+<section class="dashboard">
+
+<h2>Pokédex Progress</h2>
+
+<div class="progress-bar">
+    <div class="progress" id="dexProgress"></div>
+</div>
+
+<p id="dexPercentage">
+0 / 151 Pokémon
+</p>
+
+</section>
+
+
+<section class="tracker">
+
+
+<input 
+id="search"
+placeholder="Search Pokémon..."
+oninput="displayPokemon()"
+>
+
+
+<div id="pokemonList"></div>
+
+
+</section>
+
+
+</div>
+
+
+<script src="red.js"></script>
+
+</body>
+
+</html>
