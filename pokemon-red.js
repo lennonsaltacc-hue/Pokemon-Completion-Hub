@@ -1125,8 +1125,6 @@ location: "Power Plant",
 evolution: "No Evolution"
 },
 
-,
-
 {
 number: 126,
 name: "Magmar",
