@@ -898,6 +898,7 @@ type: "Electric",
 method: "Catch",
 location: "Power Plant",
 evolution: "Lv30 → Electrode"
-
+}
+  
 ];
 
