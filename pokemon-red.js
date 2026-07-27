@@ -674,7 +674,231 @@ type: "Rock / Ground",
 method: "Evolution",
 location: "Evolve Geodude",
 evolution: "Trade → Golem"
+},
+
+{
+number: 76,
+name: "Golem",
+type: "Rock / Ground",
+method: "Trade Evolution",
+location: "Trade Graveler",
+evolution: "Final Evolution"
+},
+
+{
+number: 77,
+name: "Ponyta",
+type: "Fire",
+method: "Catch",
+location: "Routes 17, 18",
+evolution: "Lv40 → Rapidash"
+},
+
+{
+number: 78,
+name: "Rapidash",
+type: "Fire",
+method: "Evolution",
+location: "Evolve Ponyta",
+evolution: "Final Evolution"
+},
+
+{
+number: 79,
+name: "Slowpoke",
+type: "Water / Psychic",
+method: "Catch",
+location: "Safari Zone / Seafoam Islands",
+evolution: "Lv37 → Slowbro"
+},
+
+{
+number: 80,
+name: "Slowbro",
+type: "Water / Psychic",
+method: "Evolution",
+location: "Evolve Slowpoke",
+evolution: "Final Evolution"
+},
+
+{
+number: 81,
+name: "Magnemite",
+type: "Electric",
+method: "Catch",
+location: "Power Plant",
+evolution: "Lv30 → Magneton"
+},
+
+{
+number: 82,
+name: "Magneton",
+type: "Electric",
+method: "Evolution",
+location: "Evolve Magnemite",
+evolution: "Final Evolution"
+},
+
+{
+number: 83,
+name: "Farfetch'd",
+type: "Normal / Flying",
+method: "Trade",
+location: "Trade Spearow for Farfetch'd",
+evolution: "No Evolution"
+},
+
+{
+number: 84,
+name: "Doduo",
+type: "Normal / Flying",
+method: "Catch",
+location: "Routes 16, 17, 18",
+evolution: "Lv31 → Dodrio"
+},
+
+{
+number: 85,
+name: "Dodrio",
+type: "Normal / Flying",
+method: "Evolution",
+location: "Evolve Doduo",
+evolution: "Final Evolution"
+},
+
+{
+number: 86,
+name: "Seel",
+type: "Water",
+method: "Catch",
+location: "Seafoam Islands",
+evolution: "Lv34 → Dewgong"
+},
+
+{
+number: 87,
+name: "Dewgong",
+type: "Water / Ice",
+method: "Evolution",
+location: "Evolve Seel",
+evolution: "Final Evolution"
+},
+
+{
+number: 88,
+name: "Grimer",
+type: "Poison",
+method: "Catch",
+location: "Cinnabar Island",
+evolution: "Lv38 → Muk"
+},
+
+{
+number: 89,
+name: "Muk",
+type: "Poison",
+method: "Evolution",
+location: "Evolve Grimer",
+evolution: "Final Evolution"
+},
+
+{
+number: 90,
+name: "Shellder",
+type: "Water",
+method: "Catch",
+location: "Fishing / Sea areas",
+evolution: "Water Stone → Cloyster"
+},
+
+{
+number: 91,
+name: "Cloyster",
+type: "Water / Ice",
+method: "Evolution",
+location: "Water Stone",
+evolution: "Final Evolution"
+},
+
+{
+number: 92,
+name: "Gastly",
+type: "Ghost / Poison",
+method: "Catch",
+location: "Pokémon Tower",
+evolution: "Lv25 → Haunter → Trade → Gengar"
+},
+
+{
+number: 93,
+name: "Haunter",
+type: "Ghost / Poison",
+method: "Evolution",
+location: "Evolve Gastly",
+evolution: "Trade → Gengar"
+},
+
+{
+number: 94,
+name: "Gengar",
+type: "Ghost / Poison",
+method: "Trade Evolution",
+location: "Trade Haunter",
+evolution: "Final Evolution"
+},
+
+{
+number: 95,
+name: "Onix",
+type: "Rock / Ground",
+method: "Catch",
+location: "Rock Tunnel / Victory Road",
+evolution: "No Evolution"
+},
+
+{
+number: 96,
+name: "Drowzee",
+type: "Psychic",
+method: "Catch",
+location: "Routes 11, 12, 24",
+evolution: "Lv26 → Hypno"
+},
+
+{
+number: 97,
+name: "Hypno",
+type: "Psychic",
+method: "Evolution",
+location: "Evolve Drowzee",
+evolution: "Final Evolution"
+},
+
+{
+number: 98,
+name: "Krabby",
+type: "Water",
+method: "Fishing",
+location: "Water areas",
+evolution: "Lv28 → Kingler"
+},
+
+{
+number: 99,
+name: "Kingler",
+type: "Water",
+method: "Evolution",
+location: "Evolve Krabby",
+evolution: "Final Evolution"
+},
+
+{
+number: 100,
+name: "Voltorb",
+type: "Electric",
+method: "Catch",
+location: "Power Plant",
+evolution: "Lv30 → Electrode"
 
 }
 
-];
