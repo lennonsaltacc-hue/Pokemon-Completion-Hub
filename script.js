@@ -25,12 +25,13 @@ const percent = Math.round(
 overallCaught += caught.length;
 overallTotal += game.total;
 
-const gameProgress = document.getElementById(game.progressId);
+const progressElement =
+document.getElementById(game.progressId);
 
-if(gameProgress){
+if(progressElement){
 
-gameProgress.innerText =
-`Progress: ${percent}%`;
+progressElement.innerText =
+`${percent}%`;
 
 }
 
