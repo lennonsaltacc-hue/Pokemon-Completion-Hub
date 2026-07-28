@@ -180,3 +180,29 @@ margin-bottom:25px;
 box-sizing:border-box;
 
 }
+
+.game-card{
+
+background:white;
+
+border-radius:18px;
+
+padding:20px;
+
+box-shadow:0 5px 18px rgba(0,0,0,.12);
+
+transition:.25s;
+
+text-align:center;
+
+color:#222;
+
+}
+
+.game-card:hover{
+
+transform:translateY(-5px);
+
+box-shadow:0 8px 24px rgba(0,0,0,.18);
+
+}
