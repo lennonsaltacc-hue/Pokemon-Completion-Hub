@@ -129,14 +129,22 @@ break;
 case "trade":
 
 matchesFilter =
-p.method.includes("Trade");
+
+(p.method || "").includes("Trade") ||
+
+(p.location || "").includes("Trade") ||
+
+(p.evolution || "").includes("Trade");
 
 break;
 
 case "stone":
 
 matchesFilter =
-p.method.includes("Stone");
+
+(p.location || "").includes("Stone") ||
+
+(p.evolution || "").includes("Stone");
 
 break;
 
