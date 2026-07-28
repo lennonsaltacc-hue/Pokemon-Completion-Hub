@@ -31,6 +31,10 @@ caught.push(name);
 }
 
 save();
+displayPokemon();
+
+}
+
 
 function getTypeBadges(typeString){
 
@@ -46,10 +50,6 @@ return `<span class="type ${type.toLowerCase()}">${type}</span>`;
 .join("");
 
 }
-displayPokemon();
-
-}
-
 
 
 function displayPokemon(){
