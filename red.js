@@ -1,7 +1,7 @@
 let caught = JSON.parse(
 localStorage.getItem("redPokemon") || "[]"
 );
-
+let currentFilter = "all";
 
 function save(){
 
@@ -35,6 +35,19 @@ displayPokemon();
 
 }
 
+function setFilter(filter){
+
+currentFilter = filter;
+
+document
+.querySelectorAll(".filter-btn")
+.forEach(btn => btn.classList.remove("active"));
+
+event.target.classList.add("active");
+
+displayPokemon();
+
+}
 
 function getTypeBadges(typeString){
 
@@ -71,10 +84,9 @@ pokemon
 const searchText = search.trim().toLowerCase();
 
 const number = String(p.number);
+const padded = String(p.number).padStart(3,"0");
 
-const padded = String(p.number).padStart(3, "0");
-
-return (
+const matchesSearch =
 
 p.name.toLowerCase().includes(searchText) ||
 
@@ -82,11 +94,62 @@ number === searchText ||
 
 padded === searchText ||
 
-("#" + number) === searchText ||
+("#"+number) === searchText ||
 
-("#" + padded) === searchText
+("#"+padded) === searchText;
 
-);
+let matchesFilter = true;
+
+switch(currentFilter){
+
+case "caught":
+
+matchesFilter = caught.includes(p.name);
+
+break;
+
+case "missing":
+
+matchesFilter = !caught.includes(p.name);
+
+break;
+
+case "legendary":
+
+matchesFilter = p.method === "Legendary";
+
+break;
+
+case "gift":
+
+matchesFilter = p.method === "Gift";
+
+break;
+
+case "trade":
+
+matchesFilter =
+p.method.includes("Trade");
+
+break;
+
+case "stone":
+
+matchesFilter =
+p.method.includes("Stone");
+
+break;
+
+case "fossil":
+
+matchesFilter =
+p.method === "Fossil";
+
+break;
+
+}
+
+return matchesSearch && matchesFilter;
 
 })
 .forEach(p => {
