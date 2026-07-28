@@ -23,6 +23,7 @@ header {
 
 .dashboard,
 .game-card{
+    color:#222;
     background:white;
     border-radius:18px;
     padding:20px;
