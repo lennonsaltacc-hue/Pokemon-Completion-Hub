@@ -50,30 +50,20 @@ header {
 
 .progress{
 
-background:#ddd;
-
-height:24px;
+height:100%;
 
 border-radius:999px;
 
 overflow:hidden;
 
-margin:25px 0;
-
 }
 
 #dexProgress{
-
-height:100%;
-
 background:linear-gradient(
 90deg,
 #ff3b30,
 #ffcc00
 );
-
-transition:.4s;
-
 }
 
 
