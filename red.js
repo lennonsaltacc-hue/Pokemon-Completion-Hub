@@ -31,6 +31,21 @@ caught.push(name);
 }
 
 save();
+
+function getTypeBadges(typeString){
+
+return typeString
+.split("/")
+.map(type => {
+
+type = type.trim();
+
+return `<span class="type ${type.toLowerCase()}">${type}</span>`;
+
+})
+.join("");
+
+}
 displayPokemon();
 
 }
@@ -82,7 +97,11 @@ alt="${p.name}"
 
 </div>
 
-<p><strong>Type:</strong> ${p.type}</p>
+<div class="type-container">
+
+${getTypeBadges(p.type)}
+
+</div>
 
 <p><strong>Method:</strong> ${p.method}</p>
 
