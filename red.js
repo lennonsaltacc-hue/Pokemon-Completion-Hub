@@ -66,11 +66,30 @@ list.innerHTML = "";
 
 
 pokemon
-.filter(p => 
-p.name.toLowerCase().includes(search)
-)
-.forEach(p => {
+.filter(p => {
 
+const searchText = search.trim().toLowerCase();
+
+const number = String(p.number);
+
+const padded = String(p.number).padStart(3, "0");
+
+return (
+
+p.name.toLowerCase().includes(searchText) ||
+
+number === searchText ||
+
+padded === searchText ||
+
+("#" + number) === searchText ||
+
+("#" + padded) === searchText
+
+);
+
+})
+.forEach(p => {
 
 let checked = caught.includes(p.name);
 
